@@ -1,0 +1,20 @@
+Steps to migrate your existing React project to TS quickly
+
+1. clone the project in your local using git clone
+2. Copy package.json (if you want to use this working version) or else 
+   a. Install the required packages in your existing package.json
+        ---  "types/node"
+        ---  "types/react",
+        ---  "types/react-dom",
+        ---  "extract-text-webpack-plugin",
+        ---   "tslint",
+        ---  "tslint-config-prettier",
+        ---  "tslint-react",
+        ---   "typescript"
+        ---  "react-scripts-ts",
+        ---   "source-map-loader",
+        ---   "awesome-typescript-loader"
+3. Copy config-override.js, .prettierrc, tsconfig.json, tsconfig.prod.json and tslint.json in your project root folder and update it accordingly as per your requi
+4. Add a new TS/TSX file or update an existing JS file (e.g App.js -> App.tsx) & run 'npm start'
+
+5. Run 'npm run build' to generate prod build
