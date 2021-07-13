@@ -20,4 +20,7 @@ npm install -D extract-text-webpack-plugin@next
     "not ie <= 11",
     "not op_mini all"
   ]
+  
+ 
+ ** Please note that this project is CI/CD enabled using Git Actions. Please ignore .yml file if you're not using CI/CD pipeline for your project.
 
