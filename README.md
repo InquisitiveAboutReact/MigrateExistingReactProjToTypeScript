@@ -1,7 +1,7 @@
 # MigrateExistingReactProjToTypeScript
 This code base shows how you can migrate one existing react application (JS) to a typescript (TS/TSX). You can also use JS + TS together.
 
-Step 1 - git clode
+Step 1 - git clone
 Step 2 - go to project folder and run 'npm install'
 Step 3 - npm start 
 step 4  - add TS/TSX file or modify existing JS to TS file. 
